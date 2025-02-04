@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const url = "http://localhost:3001"
+export const url = "https://deepak-chat-amr6.onrender.com"
 
 export const axiosInsance = axios.create({
     headers :{
