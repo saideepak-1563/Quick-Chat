@@ -98,7 +98,7 @@ const UserList = ({ searchKey, socket, onlineUser }) => {
         if(searchKey === ''){
             return allChats
         }else{
-            allUsers.filter(user =>{
+            return allUsers.filter(user =>{
                 return user.firstname.toLowerCase().includes(searchKey.toLowerCase()) ||
                 user.lastname.toLowerCase().includes(searchKey.toLowerCase())
             })
